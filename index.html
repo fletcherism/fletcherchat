@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>ChatterChat</title>
+<title>FletcherChat</title>
 <style>
 /* ===== Dark Theme & Layout ===== */
 :root {
@@ -242,7 +242,7 @@ function listenChats(){
     // Global Chat
     const globalLi = document.createElement("li");
     globalLi.dataset.id = "global";
-    globalLi.textContent = "🌍 Global Chat";
+    globalLi.textContent = "FletcherChat";
     if(currentChatId==="global") globalLi.classList.add("active");
     globalLi.addEventListener("click", ()=> switchChat("global"));
     chatListEl.appendChild(globalLi);
